@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="btn">
+                <button class="home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
+                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
+                    </svg>
+                </button>HOME
+            </div>
+            <div class="btn">
+                <button class="news">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-megaphone-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z" />
+                    </svg>
+                </button>NEWS
+            </div>
+            <div class="btn">
+                <button class="contact">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg>
+                </button>CONTACT
+            </div>
+            <div class="btn">
+                <button class="about">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                    </svg>
+                </button>ABOUT
+            </div>
+        </div>
+        <div class="scrolling-headline">
+            <div class="scrolling-text">
+                *This is a practice work space for my website development*
+            </div>
+        </div>
+        <div class="cards-lable">
+            <button class="scroll-l" id="scroll-l">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                </svg>
+            </button>
+            <span class="c1">ACTORS</span>
+            <button class="scroll-r" id="scroll-r">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                </svg>
+            </button>
+        </div>
+
+
+        <!-- first row -->
+
+        <div class="cards" id="cards">
+            <div class="card-container" onmouseover="cardshover()">
+                <img src="actors/salmankhan.jpg" alt="">
+                <h3 class="title">Salman Khan</h3>
+            </div>
+            <div class="card-container">
+                <img src="actors/srk.jpg" alt="">
+                <h3 class="title">ShahRukh Khan</h3>
+            </div>
+            <div class="card-container">
+                <img src="actors/prabhas.jpeg" alt="">
+                <h3 class="title">Prabhas</h3>
+            </div>
+            <div class="card-container">
+                <img src="actors/yash.jpg" alt="">
+                <h3 class="title">Yash</h3>
+            </div>
+            <div class="card-container">
+                <img src="actors/suriya.jpg" alt="">
+                <h3 class="title">Suriya</h3>
+            </div>
+            <div class="card-container">
+                <img src="actors/vijay.jpg" alt="">
+                <h3 class="title">Vijay</h3>
+            </div>
+            <div class="card-container">
+                <img src="actors/dhanush.jpeg" alt="">
+                <h3 class="title">Dhanush</h3>
+            </div>
+            <div class="card-container">
+                <img src="actors/rishabh.jpg" alt="">
+                <h3 class="title">Rishabh Shetty</h3>
+            </div>
+            <div class="card-container">
+                <img src="actors/ramcharan.jpg" alt="">
+                <h3 class="title">Ram Charan</h3>
+            </div>
+        </div>
+
+
+        <!-- second row -->
+        <div class="lable2">ACTORS</div>
+
+        <div class="cards2" id="cards2">
+            <div class="card-container2" onmouseover="cardshover()">
+                <img src="actors/salmankhan.jpg" alt="">
+                <h3 class="title2">Salman Khan</h3>
+            </div>
+            <div class="card-container2">
+                <img src="actors/srk.jpg" alt="">
+                <h3 class="title2">ShahRukh Khan</h3>
+            </div>
+            <div class="card-container2">
+                <img src="actors/prabhas.jpeg" alt="">
+                <h3 class="title">Prabhas</h3>
+            </div>
+            <div class="card-container2">
+                <img src="actors/yash.jpg" alt="">
+                <h3 class="title2">Yash</h3>
+            </div>
+            <div class="card-container2">
+                <img src="actors/suriya.jpg" alt="">
+                <h3 class="title2">Suriya</h3>
+            </div>
+            <div class="card-container2">
+                <img src="actors/vijay.jpg" alt="">
+                <h3 class="title2">Vijay</h3>
+            </div>
+            <div class="card-container2">
+                <img src="actors/dhanush.jpeg" alt="">
+                <h3 class="title2">Dhanush</h3>
+            </div>
+            <div class="card-container2">
+                <img src="actors/rishabh.jpg" alt="">
+                <h3 class="title2">Rishabh Shetty</h3>
+            </div>
+            <div class="card-container2">
+                <img src="actors/ramcharan.jpg" alt="">
+                <h3 class="title2">Ram Charan</h3>
+            </div>
+        </div>
+
+        <!-- cards 3 -->
+        <div class="cards3">
+            <div class="card-container3">
+                <img src="actors/rishabh.jpg" alt="">
+                <h3 class="title">Rishabh Shetty</h3>
+                <p class="description">
+                    Prashant Shetty, known professionally as Rishab Shetty, is an Indian actor and film maker who primarily works in Kannada cinema. He is known for his critical and commercial blockbuster, Kantara, for which he directed and acted as the main lead.
+                </p>
+                <button class="more">Read More</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="code.js"></script>
+</body>
+
+</html>
